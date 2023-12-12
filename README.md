@@ -5,6 +5,9 @@ Various CFT-based solutions are collected in this repository for puposes of depl
 
 ### [vmseries-gwlb-2023](https://github.com/seanyoungberg/panw-vmseries-aws-jam/tree/main/vmseries-gwlb-2023)
 
+
+<img src="images/diagram.png">
+
 This is the version being used for Re:invent Jam 2023. It is structured in a specific way to meet the layout of the Jam Event platform.
 
 - aws-jam-panw-gwlb-cfn-root.yaml. This is the root stack that will be deployed. The other template files are nested from this one.
@@ -30,3 +33,4 @@ The JAM platform doesn't have support for folders in the S3 bucket, so we will d
 3. Deploy stack
 
 Use aws-jam-panw-gwlb-cfn-root.yaml to create the stack. There is only one parameter that will need to be modified, which is the name of the bucket. Modify the bucket to include the prefix used in your account
+
