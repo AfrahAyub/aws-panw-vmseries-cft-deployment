@@ -6,7 +6,8 @@ Various CFT-based solutions are collected in this repository for puposes of depl
 ### [vmseries-gwlb-2023](https://github.com/seanyoungberg/panw-vmseries-aws-jam/tree/main/vmseries-gwlb-2023)
 
 
-<img src="images/diagram.png">
+![diagram](https://github.com/AfrahAyub/aws-panw-vmseries-cft-deployment/assets/93593501/abc4170d-dc38-4519-927b-a56bc5224527)
+
 
 This is the version being used for Re:invent Jam 2023. It is structured in a specific way to meet the layout of the Jam Event platform.
 
