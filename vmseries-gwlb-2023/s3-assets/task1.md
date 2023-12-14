@@ -92,7 +92,7 @@ If you still can't see the traffic in the Firewall monitoring. Please do the fol
 4. As next go to Route Tables and select the Beer Store Data Private route table
 5. In the route table click on Routes (see below)
 <br />
-<p><img src="[https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/detailed-start.png](https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png)https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png" alt="Full Starting Diagram with Route Tables" width="1500" /></p>
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png" /></p>
 <br />
 6. Click Edit routes and do the following changes:
 - Remove the route 10.0.0.0/8 -> Target TGW
