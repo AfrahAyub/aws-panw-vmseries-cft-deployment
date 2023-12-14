@@ -86,11 +86,11 @@ Clue 1:Did you check the VPC Route Table?
 Clue 2:Traffic still not showing in the Firewall?
 If you still can't see the traffic in the Firewall monitoring. Please do the following:
 
-1.Login into the AWS console
-2.Go to VPC
-3.Select in Filter by VPC field the "Beer Store Data VPC"
-4.As next go to Route Tables and select the Beer Store Data Private route table
-In the route table click on Routes (see below)
+1. Login into the AWS console
+2. Go to VPC
+3. Select in Filter by VPC field the "Beer Store Data VPC"
+4. As next go to Route Tables and select the Beer Store Data Private route table
+5. In the route table click on Routes (see below)
 <br />
 <p><img src="[https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/detailed-start.png](https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png)https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png" alt="Full Starting Diagram with Route Tables" width="1500" /></p>
 <br />
