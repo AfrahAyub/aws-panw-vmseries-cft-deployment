@@ -95,9 +95,9 @@ If you still can't see the traffic in the Firewall monitoring. Please do the fol
 <p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png" /></p>
 <br />
 6. Click Edit routes and do the following changes:
-- Remove the route 10.0.0.0/8 -> Target TGW
-- Change the route 0.0.0.0/0 -> TGW
-- click Save
+1. Remove the route 10.0.0.0/8 -> Target TGW
+2. Change the route 0.0.0.0/0 -> TGW
+3. click Save
 7. Once you made the changes your routle should looks like the example below
 
 Answer:- Look for "web-browsing"
