@@ -79,3 +79,19 @@ You started the journey by conducting a comprehensive audit of the existing AWS 
 - Palo Alto Networks NGFW VM-Series
 - Amazon EC2
 - Amazon VPC (Route tables) <br />
+
+
+## clues
+Clue 1:Did you check the VPC Route Table?
+
+Clue 2:Traffic still not showing in the Firewall?
+If you still can't see the traffic in the Firewall monitoring. Please do the following:
+
+Login into the AWS console
+Go to VPC
+Select in Filter by VPC field the "Beer Store Data VPC"
+As next go to Route Tables and select the Beer Store Data Private route table
+In the route table click on Routes (see below)
+<br />
+<p><img src="[https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/detailed-start.png](https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png)https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png" alt="Full Starting Diagram with Route Tables" width="1500" /></p>
+<br />
