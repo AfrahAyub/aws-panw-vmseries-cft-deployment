@@ -52,3 +52,35 @@ Time to find out how BrewGuardians Webstore became the weak link in our brew cha
 Clue 1:Did you looked into the TGW routing?
 1. Login into the AWS console
 2. Go to VPC Services and select under Transit Gateways the Transit gateway route tables
+<br />
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task2-tgw-rt.png" /></p>
+<br />
+3. Select the Spoke TGW Route Table
+4. In the Route table click on Propagations
+<br />
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task2-tgw2.png" /></p>
+<br />
+5. Select each propagations one by one and click delete propagations. Repeat it until both are deleted.
+6. Your TGW Route table should looks like the following after the deletion
+<br />
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task2-clue1.png" /></p>
+<br />
+
+Clue 2:Can't find the logs inside the Firewall Monitor?
+1. Log into the Palo Alto Networks VM-Series Firewall
+2. Go to Monitor -> Traffic
+<br />
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/example.png" /></p>
+<br />
+3. In the Filter field paste the the following filter ( zone.src eq internal ) and ( zone.dst eq internal ) and ( app eq ssh )
+<br />
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task2-filter.png" /></p>
+<br />
+
+Clue 3:Last Clue will provide the answer
+1. In the Monitor logs use the same filter as in Clue 2 and have a look at the column TO PORT
+<br />
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task2-clue3.png" /></p>
+<br />
+
+Answer: 2222
