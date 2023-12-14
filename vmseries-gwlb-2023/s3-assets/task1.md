@@ -101,4 +101,3 @@ If you still can't see the traffic in the Firewall monitoring. Please do the fol
 7. Once you made the changes your routle should looks like the example below
 
 Answer:- Look for "web-browsing"
-![Uploading image.png…]()
