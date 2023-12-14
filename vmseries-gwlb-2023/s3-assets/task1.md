@@ -82,6 +82,7 @@ You started the journey by conducting a comprehensive audit of the existing AWS 
 
 ## clues
 Clue 1:Did you check the VPC Route Table?
+You should check if the Route Tables of the Beer Store Data VPC is pointing to the correct Ressource
 
 Clue 2:Traffic still not showing in the Firewall?
 If you still can't see the traffic in the Firewall monitoring. Please do the following:
