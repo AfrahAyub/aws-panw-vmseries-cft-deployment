@@ -80,7 +80,6 @@ You started the journey by conducting a comprehensive audit of the existing AWS 
 - Amazon EC2
 - Amazon VPC (Route tables) <br />
 
-
 ## clues
 Clue 1:Did you check the VPC Route Table?
 
