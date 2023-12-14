@@ -104,8 +104,6 @@ If you still can't see the traffic in the Firewall monitoring. Please do the fol
 <p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-clue2-new.png" /></p>
 <br />
 Answer:- Look for "web-browsing"
-
-
 - Item 1
 - Item 2
 - Item 3
