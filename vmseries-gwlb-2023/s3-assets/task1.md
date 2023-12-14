@@ -100,6 +100,6 @@ If you still can't see the traffic in the Firewall monitoring. Please do the fol
 - click Save
 7. Once you made the changes your routle should looks like the example below
 <br />
-<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-routes.png" /></p>
+<p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task1-clue2-new.png" /></p>
 <br />
 Answer:- Look for "web-browsing"
