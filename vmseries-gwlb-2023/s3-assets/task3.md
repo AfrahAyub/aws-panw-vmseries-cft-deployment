@@ -102,11 +102,11 @@ Clue 2:Did you checked the Internet Route Table?
 <br />
 
 6. Click Edit routes and do the following change:
-1. Add the route 10.1.2.0/24 -> Gateway Load Balancer Endpoint
+- Add the route 10.1.2.0/24 -> Gateway Load Balancer Endpoint
 <br />
 <p><img src="https://aws-jam-challenge-resources.s3.amazonaws.com/panw-vmseries-gwlb/task3-clue2-igw-rt2.png" /></p>
 <br />
-2. click Save
+- click Save
 
 7. Once you made the changes your routle should looks like the example below
 <br />
