@@ -24,7 +24,7 @@ To deploy in a separate account, prepare a bucket with same format but apply a u
 
 2. Upload assets to S3
 
-Create a folder in the bucket named `panw-vmseries-gwlb/` In that folder, upload the following assets:
+Create a folder in the bucket named `panw-vmseries-gwlb` In that folder, upload the following assets:
 
 - The nested templates (combined, security, vmseries)
 - authcodes
