@@ -17,9 +17,9 @@ To deploy in normal AWS account:
 
 1. Prep S3 bucket
 
-we will use bucket names `aws-jam-challenge-resources-us-east-1`
+we will use bucket names `aws-jam-challenge-resources`
 
-To deploy in a separate account, prepare a bucket with same format but apply a unique prefix to the bucket. For example, we used `panw-aws-jam-challenge-resources-us-east-1`
+To deploy in a separate account, prepare a bucket with same format but apply a unique prefix to the bucket. For example, we used `panw-aws-jam-challenge-resources`
 
 
 2. Upload assets to S3
